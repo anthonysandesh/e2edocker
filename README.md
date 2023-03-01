@@ -1,1 +1,2 @@
-# e2edocker
+# e2edocker - House prices prediction
+
