@@ -21,7 +21,7 @@ jobs:
       run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
       
     - name: Build Docker image
-      run: docker build . --file Dockerfile --tag randilt/flask-github-actions-app
+      run: docker build . --file Dockerfile --tag antonysandesh/e2edocker
       
     - name: Push into Docker Hub
-      run: docker push anthonysandesh/e2edocker
+      run: docker push antonysandesh/e2edocker
